@@ -6,5 +6,5 @@ out/
 .env
 .env.local
 .DS_Store
-uploads/
 apps/api/uploads/
+.mongodb-data/

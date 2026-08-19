@@ -5,7 +5,7 @@
   "scripts": {
     "dev:api": "pnpm --filter api start:dev",
     "dev:web": "pnpm --filter web dev",
-    "build": "pnpm --filter api build && pnpm --filter web build",
+    "build": "pnpm --filter @tutor/shared build && pnpm --filter api build && pnpm --filter web build",
     "seed": "pnpm --filter api seed"
   },
   "engines": {
