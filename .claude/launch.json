@@ -4,7 +4,7 @@
     {
       "name": "cafe-menu",
       "runtimeExecutable": "python3",
-      "runtimeArgs": ["-m", "http.server", "8123", "-d", "/Users/user/Desktop/digital menu new"],
+      "runtimeArgs": ["-m", "http.server", "8123", "-d", "/Users/user/Desktop/digital menu"],
       "port": 8123
     }
   ]
