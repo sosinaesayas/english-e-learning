@@ -1,0 +1,9 @@
+{
+  "$schema": "https://railway.app/railway.schema.json",
+  "build": {
+    "buildCommand": "pnpm install && pnpm --filter @tutor/shared build && pnpm --filter api build"
+  },
+  "deploy": {
+    "startCommand": "pnpm --filter api start:prod"
+  }
+}
